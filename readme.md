@@ -33,7 +33,7 @@
 ),
 ```
 * Migrate Sentry tables: `php artisan migrate --package=cartalyst/sentry`
-* Update User table schema: `php artisan migrate`
+* Migrate custom tables: `php artisan migrate`
 * Serve the application on the PHP development server: `php artisan serve`
 
 -----
