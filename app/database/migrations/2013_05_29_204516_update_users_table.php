@@ -11,11 +11,11 @@ class UpdateUsersTable extends Migration {
 	 */
 	public function up()
 	{
-		// Update the users table
+		// Update the `Users` table
 		Schema::table('users', function($table)
 		{
 			$table->softDeletes();
-			$table->string('nif', 30);
+			$table->string('nif', 30)->unique();
 			$table->string('avatar');
 			$table->text('description');
 		});
@@ -28,7 +28,7 @@ class UpdateUsersTable extends Migration {
 	 */
 	public function down()
 	{
-		// Update the users table
+		// Drop updated columns from `Users` table
 		Schema::table('users', function($table)
 		{
 			$table->dropColumn('nif', 'avatar', 'description', 'deleted_at');
