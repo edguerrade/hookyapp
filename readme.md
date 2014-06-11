@@ -34,6 +34,26 @@
 ```
 * Migrate Sentry tables: `php artisan migrate --package=cartalyst/sentry`
 * Migrate custom tables: `php artisan migrate`
+* Seed database with example data: `php artisan db:seed`
 * Serve the application on the PHP development server: `php artisan serve`
 
 -----
+
+* Add this to Faker/Provider/Base.php
+```
+/**
+ * Returns X random elements from a passed array
+ *
+ * @param  array $array
+ * @param  integer $count
+ * @return mixed
+ */
+public static function randomElements($array = array('a', 'b', 'c'), $count = 1)
+{
+    $array_tmp = array();
+    for ($i=0; $i < $count; $i++) { 
+        $array_tmp[] = self::randomElement($array);
+    }
+    return $array_tmp;
+}
+```
