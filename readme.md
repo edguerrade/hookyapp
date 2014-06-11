@@ -1,7 +1,7 @@
 ## Hooky app
 
 **Edgar Guerra**
-| Crèdit de Sintesi 2013
+| Crèdit de Sintesi 2014
 | Desenvolupament d'Aplicacions Informàtiques (**DAI**)
 
 -----

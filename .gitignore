@@ -2,5 +2,7 @@
 /vendor
 composer.phar
 composer.lock
+hookyapp.sublime-project
+hookyapp.sublime-workspace
 .DS_Store
 Thumbs.db
