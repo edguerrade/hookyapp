@@ -1,0 +1,537 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"else",
+				"elseif	elseif …"
+			],
+			[
+				"t",
+				"title	Attr"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/views/tutorials/edit.blade.php",
+			"settings":
+			{
+				"buffer_size": 1210,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/layouts/modal.blade.php",
+			"settings":
+			{
+				"buffer_size": 621,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/TutorialController.php",
+			"settings":
+			{
+				"buffer_size": 3551,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/tutorials/modalcreate.blade.php",
+			"settings":
+			{
+				"buffer_size": 1153,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/tutorials/modaledit.blade.php",
+			"settings":
+			{
+				"buffer_size": 1222,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/tutorials/index.blade.php",
+			"settings":
+			{
+				"buffer_size": 2608,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 201.0,
+		"selected_items":
+		[
+			[
+				"save ",
+				"Project: Save As"
+			]
+		],
+		"width": 440.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/var/www/HookyApp/app/routes.php",
+		"/var/www/HookyApp/vendor/laravel/framework/src/Illuminate/Html/HtmlBuilder.php",
+		"/var/www/HookyApp/app/config/app.php",
+		"/var/www/HookyApp/app/views/layouts/sidebar.blade.php",
+		"/var/www/HookyApp/app/controllers/TutorialController.php",
+		"/var/www/HookyApp/app/views/layouts/modal.blade.php",
+		"/var/www/HookyApp/app/views/tutorials/index.blade.php",
+		"/var/www/HookyApp/vendor/laravel/framework/src/Illuminate/Support/Facades/HTML.php",
+		"/var/www/HookyApp/vendor/predis/predis/tests/Predis/HelpersTest.php",
+		"/var/www/HookyApp/hookyapp.sublime-project",
+		"/var/www/HookyApp/app/views/tutorials/modaledit.blade.php",
+		"/var/www/HookyApp/app/views/tutorials/edit.blade.php",
+		"/var/www/HookyApp/app/database/seeds/TutorialsSeeder.php",
+		"/var/www/HookyApp/app/database/seeds/SentrySeeder.php",
+		"/var/www/HookyApp/app/views/tutorials/edit.blade.php.bak",
+		"/var/www/HookyApp/app/views/includes/head.blade.php",
+		"/var/www/HookyApp/app/controllers/UserController.php",
+		"/var/www/HookyApp/app/views/users/edit.blade.php",
+		"/var/www/HookyApp/app/views/users/show.blade.php",
+		"/var/www/HookyApp/app/database/seeds/ClassesSeeder.php",
+		"/var/www/HookyApp/app/views/users/index.blade.php",
+		"/var/www/HookyApp/app/database/seeds/DatabaseSeeder.php",
+		"/var/www/HookyApp/app/database/migrations/2014_01_16_141618_update_users_table.php",
+		"/var/www/HookyApp/vendor/anlutro/curl/tests/cURLTest.php",
+		"/var/www/HookyApp/vendor/anlutro/curl/src/anlutro/cURL/cURL.php",
+		"/var/www/HookyApp/vendor/anlutro/curl/src/anlutro/cURL/Laravel/cURLServiceProvider.php",
+		"/var/www/HookyApp/vendor/anlutro/curl/src/anlutro/cURL/Laravel/cURL.php",
+		"/var/www/HookyApp/CONTRIBUTING.md",
+		"/var/www/HookyApp/composer.json",
+		"/var/www/HookyApp/app/views/classes/edit.blade.php",
+		"/var/www/HookyApp/app/models/Tutorial.php",
+		"/var/www/HookyApp/app/models/User.php",
+		"/var/www/HookyApp/app/views/users/create.blade.php",
+		"/var/www/HookyApp/app/views/classes/show.blade.php",
+		"/var/www/HookyApp/app/views/tutorials/show.blade.php",
+		"/var/www/HookyApp/app/views/tutorials/create.blade.php",
+		"/var/www/HookyApp/app/views/classes/index.blade.php",
+		"/var/www/HookyApp/app/views/classes/create.blade.php",
+		"/var/www/HookyApp/app/views/includes/footer.blade.php",
+		"/var/www/HookyApp/app/views/includes/sidebar.blade.php",
+		"/var/www/HookyApp/app/views/includes/header.blade.php",
+		"/var/www/HookyApp/vendor/laravel/framework/src/Illuminate/Html/FormBuilder.php",
+		"/var/www/HookyApp/vendor/laravel/framework/src/Illuminate/Support/Facades/Form.php",
+		"/var/www/HookyApp/app/views/layouts/default.blade.php",
+		"/var/www/HookyApp/app/views/home.blade.php",
+		"/var/www/HookyApp/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/MorphOneOrMany.php",
+		"/var/www/HookyApp/vendor/swiftmailer/swiftmailer/test-suite/lib/simpletest/form.php",
+		"/var/www/HookyApp/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/HasOneOrMany.php",
+		"/var/www/HookyApp/app/filters.php",
+		"/var/www/HookyApp/vendor/patchwork/utf8/class/Patchwork/PHP/Shim/charset/from.koi8-r.ser",
+		"/var/www/HookyApp/vendor/bin/boris",
+		"/var/www/HookyApp/vendor/swiftmailer/swiftmailer/build.xml",
+		"/var/www/HookyApp/vendor/swiftmailer/swiftmailer/tests/bug/Swift/Bug34Test.php",
+		"/var/www/HookyApp/vendor/swiftmailer/swiftmailer/test-suite/lib/simpletest/test/site/form_with_radio_buttons.html",
+		"/var/www/HookyApp/app/views/users/index2.blade.php",
+		"/var/www/HookyApp/app/database/migrations/2014_01_16_172457_create_students_classes_table.php",
+		"/var/www/HookyApp/app/database/migrations/2014_01_16_172837_create_teachers_classes_table.php",
+		"/var/www/HookyApp/app/controllers/ClasseController.php",
+		"/var/www/HookyApp/app/database/migrations/2014_01_16_141618_create_classes_table.php",
+		"/var/www/HookyApp/app/models/Classe.php",
+		"/var/www/HookyApp/app/models/Class.php",
+		"/var/www/HookyApp/app/database/migrations/2014_01_16_133558_create_tutorials_table.php",
+		"/var/www/HookyApp/app/config/database.php",
+		"/var/www/HookyApp/app/config/queue.php",
+		"/var/www/HookyApp/app/config/remote.php",
+		"/var/www/HookyApp/app/config/session.php",
+		"/var/www/HookyApp/app/config/workbench.php",
+		"/var/www/HookyApp/app/database/migrations/2014_01_16_132238_create_tutories_table.php",
+		"/opt/sublime_text/changelog.txt",
+		"/home/virtual/.config/sublime-text-3/Packages/User/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"div",
+			"call_user_func_array",
+			"function html",
+			"html",
+			"button",
+			"input",
+			"tutorial",
+			"Tutorial",
+			"tutorial",
+			"Tutorial",
+			"tutorial",
+			"Tutorial",
+			"tutorial",
+			"tutorials",
+			"Tutorial",
+			"Tutorials",
+			"class",
+			"Class",
+			"Tutorials",
+			"Tutorial",
+			"tutorials",
+			"tutorial",
+			"nerd",
+			"Nerd",
+			"nerd",
+			"Nerd",
+			"nerd",
+			"Nerd",
+			"nerd",
+			"Nerd",
+			"Nerds",
+			"nerds",
+			"nerd",
+			"nerds",
+			"Nerd",
+			"nerds"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"user",
+			"User",
+			"classe",
+			"Classe",
+			"classe",
+			"Classe",
+			"classe",
+			"classes",
+			"Classe",
+			"Classes",
+			"classe",
+			"Classes",
+			"Class",
+			"classes",
+			"class",
+			"tutorial",
+			"Tutorial",
+			"tutorial",
+			"Tutorial",
+			"tutorial",
+			"Tutorial",
+			"tutorial",
+			"Tutorial",
+			"Tutorials",
+			"tutorials",
+			"tutorial",
+			"tutorials",
+			"Tutorial",
+			"nerds"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 5,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/views/tutorials/edit.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1210,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								441,
+								441
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/views/layouts/modal.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 621,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								621,
+								621
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/controllers/TutorialController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3551,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								713,
+								713
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 102.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/views/tutorials/modalcreate.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1153,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								93,
+								93
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/views/tutorials/modaledit.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1222,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								46,
+								46
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/views/tutorials/index.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2608,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								544,
+								544
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "hookyapp.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"html",
+				"vendor/laravel/framework/src/Illuminate/Html/HtmlBuilder.php"
+			],
+			[
+				"curl",
+				"vendor/anlutro/curl/src/anlutro/cURL/Laravel/cURLServiceProvider.php"
+			],
+			[
+				"form",
+				"vendor/laravel/framework/src/Illuminate/Html/FormBuilder.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 285.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
