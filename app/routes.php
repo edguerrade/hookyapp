@@ -11,6 +11,11 @@
 |
 */
 
+Route::get('/', function()
+{
+	return View::make('home');
+});
+
 // Route::pattern('id', '[0-9]+');
 
 Route::resource('lessons', 'LessonController');
