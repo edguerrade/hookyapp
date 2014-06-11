@@ -6,6 +6,7 @@
 	"require": {
 		"laravel/framework": "4.1.*",
 		"cartalyst/sentry": "2.1.*",
+		"bllim/datatables": "*",
 		"maatwebsite/excel": "1.*",
 		"intervention/image": "2.*",
 		"daylerees/sanitizer": "dev-master",

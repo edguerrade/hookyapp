@@ -12,7 +12,7 @@
   			@if ( $user->avatar )
 			<img width="100" height="100" id="avatar" src="{{ asset($user->avatar) }}" alt="{{ $user->first_name . ' ' . $user->last_name }}" class="img-circle">
 			@else
-			<img width="100" height="100" id="avatar" src="http://s3.amazonaws.com/37assets/svn/765-default-avatar.png" alt="{{ $user->first_name . ' ' . $user->last_name }}" class="img-circle">
+			<img width="100" height="100" id="avatar" src="{{ asset('assets/img/default-avatar.png') }}" alt="{{ $user->first_name . ' ' . $user->last_name }}" class="img-circle">
 			@endif
   			{{ $user->last_name . ', ' . $user->first_name }} <small>DETALLES</small>
   		</h1>

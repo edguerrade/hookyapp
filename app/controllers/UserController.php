@@ -18,6 +18,40 @@ class UserController extends \BaseController {
 		// load the view and pass the tutorials
 		return View::make('users.index')
 			->with('users', $users);
+
+
+	}
+
+	public function indexDt()
+	{
+
+		$users = User::select(array(
+			'users.activated',
+			'users.id',
+			'users.avatar',
+			'users.first_name',
+			'users.last_name',
+			'users.email',
+			'users.dob',
+			'users.description',
+			));
+		return Datatables::of($users)
+		->add_column('Acciones','<a title="Mostrar Usuario" class="btn btn-xs btn-success" 
+			href="{{ URL::to(\'users/\' . $id) }}"><span class="glyphicon glyphicon-eye-open"></span></a>')
+		/*->edit_column('activated','@if($activated)
+                            Active
+                        @else
+                            Disabled
+                        @endif')*/
+		->edit_column('avatar', '@if ( $avatar )
+				<img width="50" height="50" id="avatar" src="{{ asset($avatar) }}" alt="{{ $first_name . \' \' . $last_name }}" class="img-circle">
+				@else
+				<img width="50" height="50" id="avatar" src="{{ asset(\'assets/img/default-avatar.png\') }}" alt="{{ $first_name . \' \' . $last_name }}" class="img-circle">
+				@endif')
+		->edit_column('dob', '{{ date("d/m/Y",strtotime($dob)) }}')
+		->remove_column('id')
+		->remove_column('activated')
+		->make();
 	}
 
 	/**
@@ -121,7 +155,7 @@ class UserController extends \BaseController {
 			$alluserperms[$permission->code] = 0;
 		}
 
-		$allperms = array_merge($alluserperms, $user->getMergedPermissions());
+		$allperms = array_merge($alluserperms, $user->getPermissions());//array_merge($alluserperms, $user->getMergedPermissions());
 
 		// show the edit form and pass the user
 		if(Request::ajax()) {
@@ -349,10 +383,10 @@ class UserController extends \BaseController {
 					foreach ($permissions as $permission => $value ) {
 						$new_perms[$permission] = intval($value);
 					}
-					foreach ($user->getGroups() as $group)
+					/*foreach ($user->getGroups() as $group)
 					{
 						$new_perms = array_diff($new_perms, $group->getPermissions());
-					}
+					}*/
 					// var_dump($new_perms);
 					// exit();
 					$user->permissions = $new_perms;

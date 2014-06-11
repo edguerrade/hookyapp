@@ -14,10 +14,19 @@
 
 {{ HTML::style('assets/css/selectize.bootstrap3.css') }}
 
+{{ HTML::style('//cdn.datatables.net/1.10.0/css/jquery.dataTables.css') }}
+{{ HTML::style('//cdn.datatables.net/plug-ins/be7019ee387/integration/bootstrap/3/dataTables.bootstrap.css') }}
+
 {{ HTML::style('//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.0.0/fullcalendar.css') }}
 {{ HTML::style('//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.0.0/fullcalendar.print.css') }}
 
 {{ HTML::style('assets/css/cropper.min.css') }}
+
+{{-- HTML::style('//cdnjs.cloudflare.com/ajax/libs/iCheck/1.0.1/skins/flat/blue.css') --}}
+{{ HTML::style('assets/css/square/blue.css') }}
+{{ HTML::style('assets/css/square/green.css') }}
+{{ HTML::style('assets/css/square/grey.css') }}
+{{ HTML::style('assets/css/square/red.css') }}
 
 <style>
 	#wrap {

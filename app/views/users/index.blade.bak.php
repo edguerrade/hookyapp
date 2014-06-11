@@ -27,36 +27,10 @@ users.index
 		@endforeach
 	@endif
 
-	<!--<table id="example" class="display" cellspacing="0">
-        <thead>
-            <tr>
-				<th>Foto</th>
-				<th>Nombre</th>
-				<th>Apellidos</th>
-				<th>Email</th>
-				<th>Nació</th>
-				<th>Descripción</th>
-				<th>Acciones</th>
-            </tr>
-        </thead>
- 
-        <tfoot>
-            <tr>
-				<th>Foto</th>
-				<th>Nombre</th>
-				<th>Apellidos</th>
-				<th>Email</th>
-				<th>Nació</th>
-				<th>Descripción</th>
-				<th>Acciones</th>
-            </tr>
-        </tfoot>
-    </table>-->
-
-    <table id="usertable" class="table table-striped table-bordered">
+	<table class="table table-striped table-bordered">
 		<thead>
 			<tr>
-				<!--<td>ID</td>-->
+				<td>ID</td>
 				<td>Foto</td>
 				<td>Nombre</td>
 				<td>Apellidos</td>
@@ -71,11 +45,11 @@ users.index
 		<tbody>
 		@foreach($users as $key => $value)
 			<tr>
-				{{--<td>{{ $value->id }}</td>--}}
+				<td>{{ $value->id }}</td>
 				<td>
 				@if ( $value->avatar )
-				<img width="50" height="50" id="avatar" src="{{ asset($value->avatar) }}" alt="{{ $value->first_name . ' ' . $value->last_name }}" class="img-circle">
-				<!--<img width="50" height="50" id="avatar" data-original="{{ asset($value->avatar) }}" alt="{{ $value->first_name . ' ' . $value->last_name }}" class="lazy img-circle">-->
+				<!--<img width="50" height="50" id="avatar" src="{{ asset($value->avatar) }}" alt="{{ $value->first_name . ' ' . $value->last_name }}" class="img-circle">-->
+				<img width="50" height="50" id="avatar" class="lazy img-circle" data-original="{{ asset($value->avatar) }}" alt="{{ $value->first_name . ' ' . $value->last_name }}">
 				@else
 				<img width="50" height="50" id="avatar" src="{{ asset('assets/img/default-avatar.png') }}" alt="{{ $value->first_name . ' ' . $value->last_name }}" class="img-circle">
 				@endif

@@ -141,9 +141,9 @@ class SentrySeeder extends Seeder {
                     'tel'         => $user['user']['phone'],
                     'dob'         => $fechan,
                     'activated'   => true,
-                    'permissions' => array(
+                    /*'permissions' => array(
                         'user.create' => -1,
-                    ),
+                    ),*/
                 ));
                 // Assign user permissions
                 if ($i % 5 === 0) {

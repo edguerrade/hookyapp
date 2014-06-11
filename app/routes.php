@@ -23,6 +23,7 @@ Route::resource('tutorials/excel', 'ExcelController@tutorials');
 Route::resource('tutorials', 'TutorialController');
 Route::resource('groups', 'GroupController');
 Route::resource('users/import-csv', 'ExcelController@importUsers');
+Route::resource('users/indexDt', 'UserController@indexDt');
 Route::resource('users', 'UserController');
 Route::resource('users/image', 'UserController@updateImage');
 Route::resource('users/groups', 'UserController@updateGroups');

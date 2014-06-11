@@ -15,7 +15,7 @@ users.edit
   			@if ( $user->avatar )
   			<img width="100" height="100" id="avatar" src="{{ asset($user->avatar) }}" alt="{{ $user->first_name . ' ' . $user->last_name }}" class="img-circle">
 			@else
-			<img width="100" height="100" id="avatar" src="http://s3.amazonaws.com/37assets/svn/765-default-avatar.png" alt="{{ $user->first_name . ' ' . $user->last_name }}" class="img-circle">
+			<img width="100" height="100" id="avatar" src="{{ asset('assets/img/default-avatar.png') }}" alt="{{ $user->first_name . ' ' . $user->last_name }}" class="img-circle">
 			@endif
   			{{ $user->last_name . ', ' . $user->first_name }}  <small>EDITAR</small>
   		</h1>
@@ -125,7 +125,7 @@ users.edit
 						<div class="col-sm-2">
 							<div class="checkbox-inline">
 								<label>
-									{{ Form::checkbox('groups[' . $group . ']', 1, $value) }}
+									{{ Form::checkbox('groups[' . $group . ']', 1, $value, array('class' => 'input-blue')) }}
 									{{ $group }}
 								</label>
 							</div>
@@ -142,7 +142,7 @@ users.edit
 			{{ Form::open(array('url' => array('users/permissions', $user->id), 'method' => 'PUT')) }}
 				<h3>Permisos</h3>
 			
-				<div class="row">
+				<!--<div class="row">
 					@foreach ($permissions as $permission => $value)
 						<div class="col-sm-2">
 							<div class="form-group">
@@ -151,6 +151,31 @@ users.edit
 							</div>
 						</div>
 					@endforeach
+				</div>-->
+
+				<div class="row">
+					<div class="col-sm-12">
+						<table class="table table-striped table-bordered">
+							<thead>
+								<tr>
+									<td>Nombre</td>
+									<td class="text-center">Deny</td>
+									<td class="text-center">Inherit</td>
+									<td class="text-center">Allow</td>
+								</tr>
+							</thead>
+							<tbody>
+							@foreach ($permissions as $permission => $value)
+								<tr>
+									<td>{{ $permission }}</td>
+									<td class="text-center">{{ Form::radio('permissions[' . $permission . ']', '-1', ($value==-1)?true:false, array('class' => 'input-red')) }}</td>
+									<td class="text-center">{{ Form::radio('permissions[' . $permission . ']', '0', ($value==0)?true:false, array('class' => 'input-grey')) }}</td>
+									<td class="text-center">{{ Form::radio('permissions[' . $permission . ']', '1', ($value==1)?true:false, array('class' => 'input-green')) }}</td>
+								</tr>
+							@endforeach
+							</tbody>
+						</table>
+					</div>
 				</div>
 				{{ Form::submit('Editar Permisos!', array('class' => 'btn btn-primary')) }}
 
